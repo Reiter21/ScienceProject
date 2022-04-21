@@ -11,5 +11,5 @@ pip install -r requirements.txt
 ## Run
 
 ```
-python main.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel 
+python main.py --prototxt Prototxt.txt --model Model.caffemodel 
 ```
