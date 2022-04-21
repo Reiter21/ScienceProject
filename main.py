@@ -69,7 +69,7 @@ while True:
 			
 			(startX, startY, endX, endY) = box.astype("int")
 
-			label = f"{CLASSES[idx]}: {confidence * 100}"
+			label = f"{CLASSES[idx]}: {round(confidence * 100, 2)}"
 
 			# alarm system
 			if CLASSES[idx] == 'person' and soundCounter >= soundCounterSpeed:
@@ -97,8 +97,8 @@ while True:
 
 fps.stop()
 
-print(f"[INFO] Elapsed Time: {fps.elapsed()}")
-print(f"[INFO] Approximate FPS: {fps.fps()}")
+print(f"[INFO] Elapsed Time: {round(fps.elapsed(), 3)}")
+print(f"[INFO] Approximate FPS: {round(fps.fps(), 2)}")
 
 cv2.destroyAllWindows()
 
