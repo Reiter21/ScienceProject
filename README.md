@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-git clone https://github.com/Reiter21/ScienceProject.git
+git clone https://github.com/palash-gupta/ScienceProject.git
 cd ScienceProject
 pip install -r requirements.txt
 ```
