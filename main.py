@@ -49,7 +49,7 @@ while True:
 		personVisibleFor = 0
 
 	frame = vs.read()
-	frame = imutils.resize(frame, width=800)
+	frame = imutils.resize(frame, width=1000)
 	#print(frame.shape) # (225, 400, 3)
 
 	(h, w) = frame.shape[:2]
